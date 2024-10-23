@@ -51,6 +51,7 @@ class Boxx<T extends Number & printable> {
         this.item = item;
     }
 
+
     // Method to call 'print' on the 'item' object
     public void display(){
         item.print(); // Calls the 'print' method of the 'item'
